@@ -31,12 +31,6 @@ export const StyledContact = styled.div`
 `;
 
 export const StyledSearchBar = styled.div`
-  /* width: 90%;
-  margin: 0 auto;
-  background-color: #4b4c4d;
-  border: 1px solid #656667;
-  border-radius: 5px;
-  padding: .2rem 0; */
   width: 90%;
   margin: 0 auto;
   background-color: #4b4c4d;
@@ -54,10 +48,6 @@ export const StyledSearchBar = styled.div`
 
     :focus {
       outline: none;
-    }
-
-    :hover {
-      
     }
   }
 
@@ -79,6 +69,7 @@ export const StyledPerson = styled.div`
 
   :hover {
     background-color: #65666777;
+    cursor: pointer;
   }
 
   #contact-person-name {
@@ -97,6 +88,4 @@ export const StyledPerson = styled.div`
       color: #656667;
     }
   }
-
-
 `;

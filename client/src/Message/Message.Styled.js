@@ -129,21 +129,57 @@ export const StyledMessageSection = styled.div`
 `;
 
 export const StyledPersonalMessage = styled.div`
-  max-width: 45%;
+  width: 100%;
   max-height: 100%;
-  background-color: #0199ff;
-  margin-left: auto;
-  margin-right: 1rem;
-  margin: 1rem 1rem 1rem auto;
-  padding: .2rem 1rem;
-  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 
   p {
+    width: 45%;
+    margin: 1rem 1rem 1rem auto;
+    background-color: #0199ff;
+    padding: .8rem 1rem;
+    border-radius: 15px;
     max-width: 100%;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
     color: white;
+  }
+
+  span {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+`;
+
+export const StyledContactMessage = styled.div`
+  width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    max-width: 45%;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    color: white;
+    background-color: #3f4041;
+    padding: .8rem 1rem;
+    border-radius: 15px;
+    margin: 1em auto 1em 1em;
+  }
+
+  span {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 `;

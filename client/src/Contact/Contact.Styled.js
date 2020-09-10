@@ -37,6 +37,8 @@ export const StyledSearchBar = styled.div`
   border-radius: 5px;
   border: 1px solid #656667;
   position: relative;
+  display: flex;
+  flex-wrap: nowrap;
 
   input {
     background-color: #4b4c4d;
@@ -86,6 +88,14 @@ export const StyledPerson = styled.div`
       margin-block-start: 0;
       margin-block-end: 0;
       color: #656667;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    div {
+      width: 18px;
+      height: 18px;
+      margin-left: .5rem;
     }
   }
 `;

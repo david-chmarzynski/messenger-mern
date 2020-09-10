@@ -38,7 +38,7 @@ const Contact = () => {
           </IconButton>
           <div id="contact-person-name">
             <h2>David Chmarzynski</h2>
-            <p>Je suis le dernier message... ⸱ mar.</p>
+            <p>Je suis le dernier message... ⸱ mar. <Avatar /></p>
           </div>
       </StyledPerson>
     </StyledContact>

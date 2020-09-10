@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledMessage, StyledMessageHeader, StyledMessageFooter, StyledPersonalMessage, StyledMessageSection } from './Message.Styled';
+import { StyledMessage, StyledMessageHeader, StyledMessageFooter, StyledPersonalMessage, StyledMessageSection, StyledContactMessage } from './Message.Styled';
 
 // Import == Material UI Icons
 import PhoneIcon from '@material-ui/icons/Phone';
@@ -40,7 +40,12 @@ const Message = () => {
         </div>
         </StyledMessageHeader>
         <StyledMessageSection>
+          <StyledContactMessage>
+            <span>15 AOÛT, 13:14</span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quasi numquam necessitatibus impedit cum autem rerum soluta ipsam nisi aspernatur.</p>
+          </StyledContactMessage>
           <StyledPersonalMessage>
+            <span>15 AOÛT, 13:15</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel at impedit commodi rem expedita fuga distinctio labore temporibus quam? Quia animi natus quidem labore impedit soluta? Autem optio, dolorem unde, eligendi distinctio modi explicabo voluptas tempora vel magnam, tempore quos ad doloribus facilis suscipit quo. Magnam enim doloremque qui commodi.</p>
           </StyledPersonalMessage>
         </StyledMessageSection>
